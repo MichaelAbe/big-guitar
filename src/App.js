@@ -4,6 +4,7 @@ import TestingContainer from './components/TestingContainer';
 import Login from './components/Login';
 import LoginContainer from './components/LoginContainer';
 import NavBarContainer from './components/NavBarContainer';
+import FooterContainer from './components/FooterContainer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <header className="App-header">
         <NavBarContainer/>
         <LoginContainer/>
-        
+        <FooterContainer/>
       </header>
     </div>
   );
