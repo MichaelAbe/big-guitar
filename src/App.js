@@ -5,6 +5,7 @@ import Login from './components/Login';
 import LoginContainer from './components/LoginContainer';
 import NavBarContainer from './components/NavBarContainer';
 import FooterContainer from './components/FooterContainer';
+import BodyContainer from './components/BodyContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <header className="App-header">
         <NavBarContainer/>
         <LoginContainer/>
+        <BodyContainer/>
         <FooterContainer/>
       </header>
     </div>
